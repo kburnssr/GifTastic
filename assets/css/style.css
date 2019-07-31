@@ -1,0 +1,47 @@
+/**
+ * Float Layout Activity
+ **/
+
+*{
+  box-sizing: border-box;
+}
+
+html, body { 
+  position: relative;
+  font-family: 'Arial', 'Times New Roman', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F8FF;
+} 
+#animal-form{
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#addananimal{
+  position: relative;
+  margin-bottom: 0px;
+}
+#animalButtons{
+  position: relative;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: white;
+}
+#animal-input{
+  position: relative;
+  border-radius: 5px;
+}
+#submit{
+  position: relative;
+  border-radius: 5px;
+}
+#storedGifs div{
+  float: left;
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
