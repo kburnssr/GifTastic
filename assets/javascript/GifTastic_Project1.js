@@ -9,7 +9,7 @@ $(document).on('click', 'button', function () {
     }).then(function (response) {
         for (var i = 0; i < response.data.length; i++) {
             var el = $("<img src='" + response.data[i].images.original_still.url +
-                "' alt-src='" + response.data[i].images.original.url + "'/>");
+                "' alt-src='" + response.data[i].images.original.url + "' width='100'/>");
             var div = $("<div><br>" + response.data[i].rating + "</div>");
             div.prepend(el);
             $("#storedGifs").prepend(div);
